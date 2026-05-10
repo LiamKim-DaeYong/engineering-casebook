@@ -1,2 +1,11 @@
 .gitconfig-codex
 
+.gradle/
+build/
+out/
+*.iml
+
+**/.gradle/
+**/build/
+**/out/
+

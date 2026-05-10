@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-05-10T07:38:50.026Z",
+  "initialStock": 1000,
+  "vusPerStrategy": 20,
+  "iterationsPerStrategy": 2000,
+  "strategies": [
+    {
+      "strategy": "JPA_OPTIMISTIC_LOCK",
+      "successCount": 1000,
+      "failureRate": 0.5,
+      "avgMs": 55.24024625000005,
+      "minMs": 2.8362,
+      "medMs": 44.1024,
+      "p90Ms": 112.82643000000002,
+      "p95Ms": 128.054915,
+      "maxMs": 374.7072
+    },
+    {
+      "strategy": "JPA_PESSIMISTIC_LOCK",
+      "successCount": 1000,
+      "failureRate": 0.5,
+      "avgMs": 45.93356999999989,
+      "minMs": 1.5831,
+      "medMs": 42.05385,
+      "p90Ms": 82.40313000000005,
+      "p95Ms": 100.78270999999998,
+      "maxMs": 270.8725
+    },
+    {
+      "strategy": "CONDITIONAL_UPDATE",
+      "successCount": 1000,
+      "failureRate": 0.5,
+      "avgMs": 41.55265669999994,
+      "minMs": 1.5859,
+      "medMs": 40.8173,
+      "p90Ms": 69.69874,
+      "p95Ms": 84.44729499999998,
+      "maxMs": 283.086
+    },
+    {
+      "strategy": "REDIS_LUA",
+      "successCount": 1000,
+      "failureRate": 0.5,
+      "avgMs": 5.861050699999985,
+      "minMs": 1.3885,
+      "medMs": 4.8455,
+      "p90Ms": 9.0163,
+      "p95Ms": 11.160024999999996,
+      "maxMs": 104.3532
+    }
+  ]
+}
