@@ -34,6 +34,16 @@ engineering-casebook/
 - `projects/`: 실행 가능한 미니 프로젝트와 실험 코드
 - `snippets/`: 자주 쓰는 코드 조각, 설정, 명령어 모음
 
+## Naming Guide
+
+파일과 디렉터리 이름은 가능하면 주제 중심의 kebab-case를 사용합니다.
+
+- 좋은 예: `java-concurrency-basics.md`, `composite-index-column-order.md`
+- 강의명이나 사람 이름은 꼭 필요할 때만 문서 본문에 남깁니다.
+- 단순 학습 기록은 `notes/{topic}/` 아래에 둡니다.
+- 직접 실행해본 실험이나 재현 코드는 `projects/{experiment-name}/` 아래에 둡니다.
+- 문제 해결 과정이 중요한 기록은 `cases/{case-type}/` 아래에 둡니다.
+
 ## Project Guide
 
 `projects/` 아래의 미니 프로젝트는 하나의 기술 주제나 도메인 문제를 작게 검증합니다.
