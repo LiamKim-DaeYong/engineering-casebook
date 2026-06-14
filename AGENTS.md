@@ -52,3 +52,13 @@
 - 코드 예제가 핵심이라서 예제 섹션 비중이 큰 경우
 
 핵심은 형식 통일보다는 읽는 사람이 빠르게 이해할 수 있는 구조를 만드는 것이다.
+
+## 블로그 관련 작업
+
+이 저장소의 학습 기록을 블로그 초안이나 발행 후보로 다룰 때는 아래 문서를 함께 참고한다.
+
+- [blog-operations.md](E:/Project/engineering-casebook/blog-operations.md): 블로그 운영 정책과 기존 글 처리 원칙
+- [blog-profile.md](E:/Project/engineering-casebook/blog-profile.md): 블로그 글의 톤, 구조, 제목, frontmatter 규칙
+- [blog-pipeline.md](E:/Project/engineering-casebook/blog-pipeline.md): `notes/`에서 블로그 초안으로 승격하는 절차와 판단 기준
+
+블로그 작업에서는 `notes/`를 학습 원본으로 유지하고, 블로그 글은 별도 초안과 검토 과정을 거쳐 승격하는 것을 기본 원칙으로 삼는다.
